@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "561022940647",
+    "project_id": "in-and-out-1d1af",
+    "storage_bucket": "in-and-out-1d1af.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561022940647:android:6ffb7e36f18545ee4a3942",
+        "android_client_info": {
+          "package_name": "com.example.gsm_tracker_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPrc9RjodhQJpYEpfSl10vKarG016XhWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561022940647:android:8507dbfb1932047e4a3942",
+        "android_client_info": {
+          "package_name": "com.gsmtracker.client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPrc9RjodhQJpYEpfSl10vKarG016XhWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561022940647:android:e07ac19ee5b9477d4a3942",
+        "android_client_info": {
+          "package_name": "com.twosee.inandout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPrc9RjodhQJpYEpfSl10vKarG016XhWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561022940647:android:bc33bd0304c671c64a3942",
+        "android_client_info": {
+          "package_name": "com.twosee.mobile_in_out"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPrc9RjodhQJpYEpfSl10vKarG016XhWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561022940647:android:5c4717cfbf5b9d4b4a3942",
+        "android_client_info": {
+          "package_name": "dev.twosee.mobile_in_out"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPrc9RjodhQJpYEpfSl10vKarG016XhWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

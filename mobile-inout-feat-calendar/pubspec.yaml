@@ -1,0 +1,309 @@
+name: mobile_in_out
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.4.1+52
+
+environment:
+  sdk: ^3.8.1
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  # Route
+  auto_route: ^10.1.0+1
+  # auto_route: ^10.0.1
+
+  # Dependency Injection
+  get_it: ^8.0.3
+  provider: ^6.1.5
+  riverpod: ^3.0.3
+  riverpod_annotation: ^3.0.0
+  flutter_riverpod: ^3.0.3
+
+  # Network
+  dio: ^5.8.0+1
+  pretty_dio_logger: ^1.4.0
+  # retrofit: ^4.4.2
+  retrofit: ^4.9.1
+  # retrofit_generator: ^9.2.0
+  retrofit_generator: ^10.0.0
+  http_interceptor: ^2.0.0
+  flutter_alice: ^2.0.1
+
+  # Mapper
+  dartz: ^0.10.1
+
+  # Style
+  google_fonts: ^6.2.1
+
+  # Component
+  one_clock: ^2.0.1
+  dotted_border: ^3.0.1
+  expansion_tile_list: ^2.0.0
+  extended_text_field: ^16.0.2
+
+  # Utility
+  equatable: ^2.0.7
+  logger: ^2.5.0
+  # Because one_clock 2.0.1 depends on intl ^0.19.0 and no versions of one_clock match >2.0.1 <3.0.0, one_clock ^2.0.1 requires intl ^0.19.0
+  intl: 0.20.2
+  flutter_localizations:
+    sdk: flutter
+  device_info_plus: ^11.4.0
+  # Picker
+  file_picker: ^9.0.1
+  # Open File
+  flutter_pdfview: ^1.2.5
+  video_player: ^2.7.0
+  open_filex: ^4.3.2
+  overlay_support: ^2.1.0
+  flutter_dotenv: ^6.0.0
+  timezone: ^0.10.1
+  package_info_plus: ^4.0.0
+  telephony_info_plus: ^0.0.2
+  flutter_device_imei: ^0.0.4
+  flutter_sim_info: ^1.1.3
+  flutter_device_apps: ^0.3.1
+  # json_annotation: ^4.9.0
+  # Open external Apps
+  url_launcher: ^6.3.2
+  qr_flutter: ^4.1.0
+
+  # Storage
+  shared_preferences: ^2.3.5
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  sqflite: ^2.4.2
+
+  # Permission
+  permission_handler: ^12.0.0+1
+  disable_battery_optimizations_latest: ^1.0.0
+
+  # Background Service
+  flutter_background_service: ^5.1.0
+  workmanager: ^0.6.0
+  background_location_tracker: ^1.6.0
+  # e: file:///Users/phincon/.pub-cache/hosted/pub.dev/background_location-0.13.0/android/src/main/kotlin/com/almoullim/background_location/BackgroundLocationPlugin.kt:18:52 Unresolved reference 'Registrar'.
+  # e: file:///Users/phincon/.pub-cache/hosted/pub.dev/background_location-0.13.0/android/src/main/kotlin/com/almoullim/background_location/BackgroundLocationPlugin.kt:20:50 Unresolved reference 'context'.
+  # e: file:///Users/phincon/.pub-cache/hosted/pub.dev/background_location-0.13.0/android/src/main/kotlin/com/almoullim/background_location/BackgroundLocationPlugin.kt:20:71 Unresolved reference 'messenger'.
+  # e: file:///Users/phincon/.pub-cache/hosted/pub.dev/background_location-0.13.0/android/src/main/kotlin/com/almoullim/background_location/BackgroundLocationPlugin.kt:21:23 Unresolved reference 'addRequestPermissionsResultListener'.
+  # background_location: ^0.13.0
+
+  # Location
+  location: ^8.0.0
+  geocoding: ^4.0.0
+  geolocator: ^14.0.1
+  google_maps_flutter: ^2.12.2
+
+  # Hardware
+  camera: ^0.11.1
+  # The default Android implementation from camera_android_camerax doesn't support the required image format.
+  camera_android: ^0.10.10+1
+
+  # Picture
+  # image: ^4.5.4
+  # image_picker: ^1.1.2
+  # flutter_image_compress: ^2.4.0
+  # image_watermark: ^0.1.0
+  image: ^3.0.2
+  image_picker: ^1.0.8
+  flutter_image_compress: ^2.1.0
+  image_watermark: ^0.0.5
+
+  # Face Detection
+  google_ml_kit: ^0.20.0
+  tflite_flutter: ^0.10.4
+
+  # Google Lib
+  # Manifest merger failed : uses-sdk:minSdkVersion 21 cannot be smaller than version 23 declared in library [:google_api_headers] /Users/phincon/Documents/MobileAppsProject/Flutter/mobile_in_out/build/google_api_headers/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml as the library might be using APIs not available in 21
+  google_api_headers: ^1.6.0
+
+  # Firebase
+  firebase_core: ^3.13.1
+  firebase_crashlytics: ^4.3.6
+  firebase_messaging: ^15.2.5
+
+  # Notification
+  flutter_local_notifications: ^19.5.0
+
+  # Alarm
+  alarm: ^5.1.5
+
+  # Calendar
+  table_calendar: ^3.2.0
+
+  #Module
+  chat:
+    path: ../chat
+  # auth:
+  #   path: ../auth
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+  json_serializable: ^6.10.0
+
+  # Requirement auto route
+  build_runner: ^2.4.15
+  # build_runner: ^2.6.0
+  auto_route_generator: ^10.2.3
+  # auto_route_generator: ^10.0.1
+
+  # For generate launcher icon
+  flutter_launcher_icons: "^0.11.0"
+
+  # riverpod generator
+  riverpod_generator: ^3.0.0
+
+dependency_overrides:
+  retrofit: 4.9.1
+  retrofit_generator: 10.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/logo_apps.png"
+  min_sdk_android: 21
+
+# flutter_icons:
+#   android: "ic_launcher"
+#   ios: true
+#   image_path: "assets/logo/logo_apps.png"
+#   min_sdk_android: 21 # android min sdk min:16, default 21
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/logo/
+    - assets/images/
+    - assets/icons/
+    - assets/mobilefacenet.tflite
+    - assets/fonts/
+    - assets/certificates/
+    - .env
+    - .env.staging
+    - .env.prod
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Montserrat-ThinItalic.ttf
+          weight: 100
+          style: italic
+
+        - asset: assets/fonts/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Montserrat-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat-LightItalic.ttf
+          weight: 300
+          style: italic
+
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Italic.ttf
+          weight: 400
+          style: italic
+
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-MediumItalic.ttf
+          weight: 500
+          style: italic
+
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-BoldItalic.ttf
+          weight: 700
+          style: italic
+
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Montserrat-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+
+        - asset: assets/fonts/Montserrat-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Montserrat-BlackItalic.ttf
+          weight: 900
+          style: italic
